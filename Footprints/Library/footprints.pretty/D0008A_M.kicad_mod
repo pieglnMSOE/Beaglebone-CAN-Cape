@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "TCAN332D ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0 4 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "853ff612-001d-4fa7-9bf9-16885dcc72d3")
@@ -1319,8 +1319,8 @@
 		(layer "F.Fab")
 		(uuid "677b872c-bf7c-4475-a35a-a9ecb3ea073d")
 	)
-	(fp_text user "DESIGNATOR303"
-		(at -3.9116 -4.2926 0)
+	(fp_text user "TCAN332"
+		(at 0 -4 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "f87b9007-987d-4881-8c70-9791c33a5267")

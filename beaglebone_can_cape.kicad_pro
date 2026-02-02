@@ -455,7 +455,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "Senior Design"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
