@@ -1,0 +1,13 @@
+Footprint options:
+
+Capacitors:
+	#484 -- Capacitor_SMD:C_0805_2012Metric
+		^ Same as Embedded Fabrication
+	#528 -- Capacitor_THT:CP_Axial_L10.0mm_D4.5_P15.00mm_Horizonal
+		^ This is what EECS has
+
+Resistors:
+	#13693 -- Resistor_SMD:R_0805_2012Metric
+		^ Same as Embedded Fabrication
+	#13761 -- Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical
+		^ This is what EECS has
