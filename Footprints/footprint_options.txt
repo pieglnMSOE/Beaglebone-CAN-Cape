@@ -6,8 +6,14 @@ Capacitors:
 	#528 -- Capacitor_THT:CP_Axial_L10.0mm_D4.5_P15.00mm_Horizonal
 		^ This is what EECS has
 
+Inductors:
+	#9614 -- Inductor_SMD:L_0805_2012Metric
+		^ Embedded Fabrication
+	#8967 -- Inductor_THT:L_Axial_L5.0mm_D3.6mm_P10.00mm_Horizontal_Murata_BL01RN1A2A2
+		^ EECS
+
 Resistors:
 	#13693 -- Resistor_SMD:R_0805_2012Metric
-		^ Same as Embedded Fabrication
+		^ Embedded Fabrication
 	#13761 -- Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical
-		^ This is what EECS has
+		^ EECS
