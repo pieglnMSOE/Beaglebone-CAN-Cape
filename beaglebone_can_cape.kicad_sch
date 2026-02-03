@@ -3624,7 +3624,7 @@
 	(text_box "CAN Transceivers"
 		(exclude_from_sim no)
 		(at 144.78 15.24 0)
-		(size 83.82 106.68)
+		(size 106.68 106.68)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
