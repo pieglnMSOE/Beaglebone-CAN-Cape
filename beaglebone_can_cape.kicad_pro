@@ -472,7 +472,8 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "Senior Design"
+      "Senior Design",
+      "SeniorDesign"
     ],
     "pinned_symbol_libs": [
       "Senior_Design"
