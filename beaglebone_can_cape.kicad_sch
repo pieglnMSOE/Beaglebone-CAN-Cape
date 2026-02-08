@@ -4772,6 +4772,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 120.65) (xy 106.68 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cbf6901-7989-4a4a-9287-08d3c5fa3cce")
+	)
+	(wire
+		(pts
 			(xy 196.85 140.97) (xy 203.2 140.97)
 		)
 		(stroke
@@ -6082,7 +6092,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 127) (xy 104.14 127)
+			(xy 100.33 127) (xy 106.68 127)
 		)
 		(stroke
 			(width 0)
@@ -7090,28 +7100,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PWR"
-		(shape input)
-		(at 104.14 127 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1c6a4672-45c2-4c76-aca4-60a3c9f83c88")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.2117 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -8186,7 +8174,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DTM15-12PA:TE_DTM15-12PA"
+		(property "Footprint" "Senior Design:TE_DTM15-12PA"
 			(at 213.36 143.51 0)
 			(effects
 				(font
@@ -8405,6 +8393,70 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 106.68 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10fc0a46-3bbb-4a2d-97a0-b6d87fd68065")
+		(property "Reference" "#PWR016"
+			(at 106.68 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 104.648 116.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 120.65 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 120.65 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 106.68 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41e56a88-cbde-4b49-9e92-510099c8c921")
+		)
+		(instances
+			(project "beaglebone_can_cape"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
