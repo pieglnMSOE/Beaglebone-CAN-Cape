@@ -7503,7 +7503,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Senior Design:TE_DTM15-12PA"
+		(property "Footprint" "SeniorDesign:Deutsch_Marlin"
 			(at 57.15 127 0)
 			(effects
 				(font
