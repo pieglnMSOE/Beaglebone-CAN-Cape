@@ -7127,7 +7127,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SeniorDesign:TVSDiode"
 			(at 97.79 160.655 0)
 			(effects
 				(font
