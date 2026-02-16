@@ -2228,6 +2228,155 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:PTVS5V0Z1USK"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PTVS5V0Z1USK"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:Nexperia_DSN1608-2_1.6x0.8mm"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PTVS5V0Z1USK.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "5V, 1200W TVS unidirectional diode, DSN1608-2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "TVS diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*DSN1608?2*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PTVS5V0Z1USK_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PTVS5V0Z1USK_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Interface_CAN_LIN:TCAN332"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4283,18 +4432,6 @@
 		(uuid "0aac9fb4-fd7c-4eef-941d-e0077dc329e1")
 	)
 	(junction
-		(at 102.87 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "28bfca29-4cf3-41cc-b3d1-b8a5469d71a3")
-	)
-	(junction
-		(at 96.52 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "362f86a6-fa84-4bf0-bf5c-39c5d89c9d95")
-	)
-	(junction
 		(at 44.45 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4401,6 +4538,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5f452d5-3a84-441b-b7e2-ed28feb860db")
+	)
+	(junction
+		(at 104.14 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb31a852-4bc3-4bdc-8cf8-717f4bf0a5c4")
+	)
+	(junction
+		(at 101.6 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c568a199-b933-4d2c-9055-ae0c40ebe135")
 	)
 	(junction
 		(at 146.05 104.14)
@@ -4816,7 +4965,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 147.32) (xy 96.52 152.4)
+			(xy 101.6 147.32) (xy 101.6 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4836,6 +4985,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 139.7) (xy 104.14 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08b2ae68-ff19-44e4-b3c9-3257e2d7ab41")
+	)
+	(wire
+		(pts
 			(xy 151.13 102.87) (xy 151.13 104.14)
 		)
 		(stroke
@@ -4846,7 +5005,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 139.7) (xy 102.87 144.78)
+			(xy 104.14 139.7) (xy 104.14 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5246,7 +5405,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 139.7) (xy 93.98 139.7)
+			(xy 93.98 139.7) (xy 101.6 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5536,16 +5695,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 139.7) (xy 105.41 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7da0099e-408a-4b5f-b6a2-ddd4164cdfad")
-	)
-	(wire
-		(pts
 			(xy 140.97 99.06) (xy 151.13 99.06)
 		)
 		(stroke
@@ -5626,7 +5775,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 144.78) (xy 102.87 144.78)
+			(xy 105.41 144.78) (xy 104.14 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5896,16 +6045,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 139.7) (xy 102.87 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b89dcf61-686f-4f7a-8a7c-0a9fe6f3b957")
-	)
-	(wire
-		(pts
 			(xy 161.29 142.24) (xy 161.29 148.59)
 		)
 		(stroke
@@ -5986,7 +6125,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 139.7) (xy 96.52 142.24)
+			(xy 101.6 139.7) (xy 101.6 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6113,6 +6252,16 @@
 			(type default)
 		)
 		(uuid "e790c7e0-49f1-4931-bbb8-d9ddb39647df")
+	)
+	(wire
+		(pts
+			(xy 104.14 139.7) (xy 105.41 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e986e552-fe8b-41b3-9aa0-fe74d4c8ac43")
 	)
 	(wire
 		(pts
@@ -6953,6 +7102,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:PTVS5V0Z1USK")
+		(at 97.79 165.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02a14334-d543-415b-a525-bb636b3d8c60")
+		(property "Reference" "D1"
+			(at 97.79 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CUHZ36V"
+			(at 97.79 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 160.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/CUHZ36V_datasheet_en_20210917.pdf?did=70664&prodName=CUHZ36V"
+			(at 97.79 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4975bacc-0383-4ab1-8a26-63a7ba4e1958")
+		)
+		(pin "2"
+			(uuid "2adf9c3a-c325-46b4-b059-9229fe341ab2")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 97.79 134.62 0)
 		(unit 1)
@@ -7755,7 +7972,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 96.52 144.78 0)
+		(at 101.6 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7763,7 +7980,7 @@
 		(dnp no)
 		(uuid "201e6c8a-825e-4960-8ef9-970eeedbd647")
 		(property "Reference" "Cin1"
-			(at 98.552 147.066 0)
+			(at 103.632 147.066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7772,7 +7989,7 @@
 			)
 		)
 		(property "Value" "2.2 uF"
-			(at 98.806 149.86 0)
+			(at 103.886 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7781,7 +7998,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 96.52 144.78 0)
+			(at 101.6 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7790,7 +8007,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 144.78 0)
+			(at 101.6 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7799,7 +8016,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 96.52 144.78 0)
+			(at 101.6 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10294,7 +10511,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 152.4 0)
+		(at 101.6 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10302,7 +10519,7 @@
 		(dnp no)
 		(uuid "ff0b86fb-54d5-4875-91f8-9e54ec828e00")
 		(property "Reference" "#PWR015"
-			(at 96.52 158.75 0)
+			(at 101.6 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10311,7 +10528,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 156.718 0)
+			(at 101.6 156.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10319,7 +10536,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 152.4 0)
+			(at 101.6 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10328,7 +10545,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 152.4 0)
+			(at 101.6 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10337,7 +10554,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 152.4 0)
+			(at 101.6 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
