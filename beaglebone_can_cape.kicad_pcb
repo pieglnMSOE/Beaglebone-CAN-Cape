@@ -6524,7 +6524,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "Cboot1"
-			(at 3.87 -1.36 180)
+			(at 3.37 -1.43 180)
 			(layer "F.SilkS")
 			(uuid "83638881-48d9-42ba-84e2-41a6002aa953")
 			(effects
@@ -11233,14 +11233,6 @@
 		(uuid "1ea16765-89e1-49c6-8cc6-ec6b028447db")
 	)
 	(segment
-		(start 133.83 76.18)
-		(end 132.71 75.06)
-		(width 2)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "3edf5ce0-34a7-40e6-84ab-a8bea9617f3e")
-	)
-	(segment
 		(start 125.254 86.316)
 		(end 125.254 95.066)
 		(width 2)
@@ -11265,6 +11257,14 @@
 		(uuid "9596bd36-0313-44dc-8727-e22161bfc9b9")
 	)
 	(segment
+		(start 126.8375 76.18)
+		(end 125.4175 77.6)
+		(width 2)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "96419b32-5337-44af-801d-0754d7925b17")
+	)
+	(segment
 		(start 128.575 78.75)
 		(end 126.5675 78.75)
 		(width 1.4)
@@ -11273,12 +11273,12 @@
 		(uuid "adc26478-6c59-4eee-8851-4d55fe5682b8")
 	)
 	(segment
-		(start 132.71 75.06)
-		(end 127.9575 75.06)
+		(start 133.83 76.18)
+		(end 126.8375 76.18)
 		(width 2)
 		(layer "F.Cu")
 		(net 3)
-		(uuid "c75a2677-44e4-49a4-98ba-b95a6c8bc828")
+		(uuid "d048e4e9-ece0-4026-bdb0-b9ef778032f1")
 	)
 	(segment
 		(start 125.4175 77.6)
@@ -11287,14 +11287,6 @@
 		(layer "F.Cu")
 		(net 3)
 		(uuid "d8be3d73-3de2-4c04-a655-c8d4951e6a9f")
-	)
-	(segment
-		(start 127.9575 75.06)
-		(end 125.4175 77.6)
-		(width 2)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "e62a05c0-08e8-4acb-ba13-2cc74a82e402")
 	)
 	(segment
 		(start 150.875 93.525)
