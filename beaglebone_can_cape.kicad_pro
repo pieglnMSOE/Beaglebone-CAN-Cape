@@ -59,16 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "lib_footprint_issues|135207500|91400000|31e240ad-e2b7-48da-93cd-3864cec807e2|00000000-0000-0000-0000-000000000000",
-          "Zach's personal libary"
-        ],
-        [
-          "lib_footprint_issues|151192000|72769800|0bdc95c1-b2a4-41b1-8423-621e30fe11b5|00000000-0000-0000-0000-000000000000",
-          "Zach's libary"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -203,11 +194,12 @@
       ],
       "track_widths": [
         0.0,
-        0.25,
         0.3,
         0.5,
+        0.7,
         0.8,
-        2.5
+        1.4,
+        2.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
