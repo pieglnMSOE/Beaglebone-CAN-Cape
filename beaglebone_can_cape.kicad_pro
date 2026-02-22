@@ -61,20 +61,16 @@
       ],
       "drc_exclusions": [
         [
-          "silk_edge_clearance|176968344|45828480|6f3cb430-a1d2-44ec-881c-d3db83d3cd15|52e955b4-4c1e-43ca-8361-386a36b71c4d",
-          "Template"
+          "lib_footprint_issues|170115000|78574999|583fd625-115f-4ce2-9ed6-46311150cfe9|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
-          "silk_edge_clearance|176968344|45828480|6f3cb430-a1d2-44ec-881c-d3db83d3cd15|f559c4e4-40f7-4a5e-9447-f5947f2636f2",
-          "BBB Template"
+          "lib_footprint_issues|180710000|78500001|e1733c70-723c-45ec-838f-3fc955a3c3d9|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
-          "silk_edge_clearance|176968344|99561519|54174b58-8309-4bfc-8b33-2171926bfe17|cb64003a-3369-404c-808f-234b485ca80d",
-          "BBB Template"
-        ],
-        [
-          "silk_edge_clearance|176968344|99561519|54174b58-8309-4bfc-8b33-2171926bfe17|d1ff688d-29bb-4a6a-a181-f68af9ec66e1",
-          "BBB Template"
+          "lib_footprint_mismatch|138000000|90620000|31e240ad-e2b7-48da-93cd-3864cec807e2|00000000-0000-0000-0000-000000000000",
+          ""
         ]
       ],
       "meta": {
